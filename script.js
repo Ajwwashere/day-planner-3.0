@@ -7,7 +7,10 @@
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
-
+ 
+function myFunction() {
+                    document.getElementById('demo').value = Date("yyyy-MM-dd");
+                }
 
 
 WHEN I scroll down
@@ -32,3 +35,33 @@ THEN the text for that event is saved in local storage
 
 WHEN I refresh the page
 THEN the saved events persist*/
+
+
+
+function myFunction() {
+    document.getElementById('demo').value = Date("yyyy-MM-dd");
+}
+
+myFunction()
+
+
+var currentTime =  Date("yyyy-MM-dd");
+var lastYear = 2020;
+var currentYear = 2020;
+
+if(lastYear > currentYear) {
+console.log('futture')
+} else if (currentYear > lastYear){
+    console.log("past")
+} else {
+    console.log("same")
+}
+
+
+var names = ["jane", "joe", "bill", "eric"];
+
+for (var i = 0; i < names.length; i++){
+
+    
+    console.log(names[i])
+}

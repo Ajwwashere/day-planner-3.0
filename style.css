@@ -5,14 +5,14 @@ body {
     line-height: 1;
   }
 
-  textarea{
+  /*textarea{
     background: transparent;
     border: none;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
-  }
+  }*/
   
   .jumbotron {
     text-align: center;
@@ -22,6 +22,10 @@ body {
     border-bottom: 10px solid black;
   }
   
+  .container{
+    height: 2000px;
+  }
+
   .description{
     white-space: pre-wrap;
   }
@@ -44,17 +48,17 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: rgb(245, 76, 76);
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: rgb(110, 245, 121);
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: rgb(100, 100, 245);
     color: white;
   }
   
@@ -70,4 +74,24 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+.button{
+  height: 35px;
+  width: 150px;
+  margin: 5px;
+  position: left;
+  background-color: tan;
+  color: black;
+  border-color: black;
   
+}
+
+.textbox{
+  position: left;
+  width: 750px;
+  height: 40px;
+  background-color: white;
+  border-image: 3px;
+  outline-style: auto;
+  text-align: left;
+}
